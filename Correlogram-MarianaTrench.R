@@ -1,3 +1,16 @@
+# ============================================================================
+# Statistical correlogram of Mariana Trench environmental data (R).
+# This produced figures in the peer-reviewed article:
+#   Lemenkova, P. (2019). Computing and Plotting Correlograms by Python and R
+#   Libraries for Correlation Analysis of the Environmental Data in Marine
+#   Geomorphology. Journal of Geomorphological Researches
+#   (Jeomorfolojik Arastirmalar Dergisi), 3, 1-16.
+#   DOI:      https://doi.org/10.5281/zenodo.3516458
+#   figshare: https://doi.org/10.6084/m9.figshare.10012808
+#   HAL:      https://hal.science/hal-02327797
+# Author: Polina Lemenkova | ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # ЧАСТЬ 1: делаем data.frame
 	# шаг-1. вчитываем таблицу. делаем из нее датафрейм.
 MDepths <- read.csv("Depths.csv", header=TRUE, sep = ",")
